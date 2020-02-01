@@ -34,37 +34,37 @@ Below you will find notes on each section from the proposed schedule above. Thes
 _Time : 10min_
 
  *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
- 
-Suggestions for pattern examples: 
+
+Suggestions for pattern examples:
 
 *	It starts with an opening tag and ends with a closing tag.
 
 	*	__Exception__: Only tags which don't need to close are those which contain no nested content? That is, img, input, br, hr, etc.
 
 
-*	Some tags require an attribute (we will cover img tags next class) 
+*	Some tags require an attribute (we will cover img tags next class)
 
 *	Hierarchy of tags. (H1 is going to be bigger than H2)
 
-*	Tags describe the content. 
+*	Tags describe the content.
 
 ===
- 
- 
+
+
 ####Adding Structure
 _Time : 60min_
 
-The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content. 
+The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content.
 
-*	Thanks to Dash, students should be familiar with the rules of HTML tags. Adding HTML tags are generally easy for students to grasp. However, students get confused when it comes to knowing which tag to apply to content. To a human reader like yourself, text has meaning, we can read with an understanding of the text and express that in code. 
+*	Thanks to Dash, students should be familiar with the rules of HTML tags. Adding HTML tags are generally easy for students to grasp. However, students get confused when it comes to knowing which tag to apply to content. To a human reader like yourself, text has meaning, we can read with an understanding of the text and express that in code.
 
 
 #####GA Press Release
 
 | Code along | [GA Solution File](solution/ga_press_release)|
 | :------------- |:-------------|
-| __Time__ | 30 min| 
-| __Topics__ | HTML Tags, Nesting| 
+| __Time__ | 30 min|
+| __Topics__ | HTML Tags, Nesting|
 | __Description__| This introductory code along meant to teach students how to read with understanding and apply the correct tag.|   
 | __Notes__| Omit ordered list ```<ol>```, students will Google it during lab time.|  
 
@@ -80,34 +80,34 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 
 *	Style specific elements to avoid inherited CSS. For instance, change the `font-family` of the `h1` instead of making a change to the `body`, which would be inherited.
 
-*	Avoid the temptation to discuss CSS Reset/Normalize or Boilerplate at this stage. 
+*	Avoid the temptation to discuss CSS Reset/Normalize or Boilerplate at this stage.
 
 *	Keep color simple. We've included some notes about colors and fonts in the slides. If you don't have time to explain in detail, you can ask students to read the notes for homework.
-  
 
-#####GA Press Release Styled 
+
+#####GA Press Release Styled
 
 |Code along | No solution file available|
 | :------------- |:-------------|
-| __Time__ | 30 min| 
-| __Topics__ | External style sheets, CSS selectors| 
+| __Time__ | 30 min|
+| __Topics__ | External style sheets, CSS selectors|
 | __Description__| This is an exercise to show students external style sheets|   
-| __Notes__| There is no styled solution. Feel free to style how you would like. | 
- 
+| __Notes__| There is no styled solution. Feel free to style how you would like. |
+
 ===
 
 
 ####Lab Time
 _Time: 50min_
 
-Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
- 
+Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them.
+
 #####Chocolate Chip Cookie Recipe
 
 | Exercise |[Solution File](solution/cookie_recipe) |
 | :------------- |:-------------|
-| __Time__ | 50 min| 
-| __Topics__ | html tags, external style sheet | 
+| __Time__ | 50 min|
+| __Topics__ | html tags, external style sheet |
 | __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice web dev tools (sublime, chrome, finder etc)|    
 | __Notes__| The starter code contains .html file with instructions and an image for the bonus questions. Students are required to google and implement the```<ol>``` tag.|
 
