@@ -1,0 +1,45 @@
+/*
+
+
+
+
+ */
+
+
+
+
+/* Two Column Layout for Posts */
+
+
+
+
+
+/* Sidebar Gallery Articles */
+
+.pbePostSidebar > article {
+    display:flex;
+}
+
+
+
+
+
+
+
+    /* Footer */
+
+.pbeFooter {
+    border-top: 10px solid #22495E;
+    background: #0F0D05;
+    color: white;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.pbeFooter h1 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}

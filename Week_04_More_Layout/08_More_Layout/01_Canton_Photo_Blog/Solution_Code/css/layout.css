@@ -1,0 +1,95 @@
+/*
+
+Font Notes:
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+
+Color Notes:
+Sand: CCB87C
+Dark Sand: 332A10
+Putty: E0CA88
+BlueButton: 2B3775
+Hover: 475CC4
+Feature: 22495E
+Near-Black: 0F0D05
+
+
+ */
+
+
+
+
+/* Two Column Layout for Posts */
+
+.pbeTwinColumn {
+    max-width: 1170px;
+    margin: 0 auto;
+    display:flex;
+}
+
+.pbeTwinColumn .pbePostSingle {
+    flex: 2;
+}
+
+.pbeTwinColumn .pbePostSidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+/* Sidebar Gallery Articles */
+
+.pbePostSidebar > article {
+    display:flex;
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid #0F0D05;
+}
+
+.pbePostSidebar > article > h1 {
+    flex: 3;
+    font-size: 1em;
+    margin: 0;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.pbePostSidebar > article > h1 > a {
+    color: #2B3775;
+    text-decoration: none;
+    display:block;
+    overflow: hidden;
+}
+
+.pbePostSidebar > article > a {
+    flex: 1;
+}
+
+.pbePostSidebar > article a:hover{
+    color: #475CC4;
+}
+
+.pbePostSidebar > article > a > img {
+    max-width: 120px;
+    border: 1px solid #0F0D05;
+    margin-right: 10px;
+}
+
+
+    /* Footer */
+
+.pbeFooter {
+    border-top: 10px solid #22495E;
+    background: #0F0D05;
+    color: white;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.pbeFooter h1 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}

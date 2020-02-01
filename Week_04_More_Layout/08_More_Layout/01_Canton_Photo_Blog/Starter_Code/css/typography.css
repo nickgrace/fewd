@@ -1,0 +1,44 @@
+
+/* General Content Typography */
+
+
+.pbeGeneralContent p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+
+
+.pbeGeneralContent table {
+    width: 100%;
+}
+
+.pbeGeneralContent .pbeStripes tr:nth-child(odd){
+    background: rgb(230,230,230);
+
+}
+
+.pbeGeneralContent blockquote p {
+    font-size: 1.4em;
+    font-style: italic;
+    border-left: 0px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.pbeGeneralContent footer {
+    display: block;
+    line-height: 1.42857143;
+    color: rgb(100,100,100);
+    text-align: right;
+    font-size: 1em;
+}
+
+.pbeGeneralContent .pbeMinimalList, .pbeGeneralContent .pbeMinimalList ul {
+    list-style-type: none;
+}
+
+.pbeGeneralContent ul.pbeMinimalList {
+    padding-left: 0;
+}
+

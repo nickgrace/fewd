@@ -1,0 +1,63 @@
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #043049;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #606161;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background: #f0efef;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.demoHeader {
+    position:relative;
+    background-color: rgb(10,35,15);
+    color: white;
+    border-bottom: 4px solid rgb(40,85,45);
+    overflow: hidden;
+    margin: 0;
+}
+
+.demoHeaderInner {
+    max-width:960px;
+    padding: 10px 15px 5px 15px;
+    margin: 0 auto;
+}
+
+.demoHeaderInner .miniBrand {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.demoHeaderInner h1 {
+    margin:0;
+    font-size: 36px;
+}
+
+
+/* Demo Lab Specific */
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.colorBox {
+    width: 20%;
+    min-height: 250px;
+    background-color: rgb(30,30,30);
+    border: 6px solid rgb(90,90,90);
+    display: inline-block;
+    margin: 1%;
+}

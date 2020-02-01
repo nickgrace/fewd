@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Her Majesty's Miscreants</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+<header class="hmmHeader">
+    <div class="hmmHeaderInner container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/Flag_of_the_Metropolitan_Police_Service.svg" alt="Flag of the Metropolitan Police" class="hmmFlag" >
+
+                <p class="miniBrand">General Assembly</p>
+                <h1>Her Majesty's Miscreants</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron">
+
+                <h1 class="display-4">API and Ajax Lab</h1>
+                <p class="lead">This lab downloads reported crime data from the British Police.</p>
+                <hr class="my-4">
+                <p>Data is sourced from <a href="https://data.police.uk/docs/" target="_blank">data.police.uk/docs/</a></p>
+
+            </div>
+        </div>
+    </div>
+    <h1>Part 1: Neighborhood</h1>
+
+    <section class="row">
+        <div class="col-md-6">
+
+            <form class="form-inline">
+                <label class="my-1 mr-2" for="region">Choose a Region</label>
+                <select class="custom-select my-1 mr-sm-2" id="region">
+                    <option value="leicestershire" selected>Leicestershire</option>
+                    <option value="essex">Essex</option>
+                    <option value="cheshire">Cheshire</option>
+                    <option value="durham">Durham</option>
+                    <option value="metropolitan" >London</option>
+                </select>
+
+
+                <label class="my-1 mr-2" for="location">Choose a Neighborhood</label>
+                <select class="custom-select my-1 mr-sm-2" id="location">
+                    <option value="00AHGU" selected>Sanderstead</option>
+                    <option value="00AHHA">Thornton Heath</option>
+                </select>
+
+            </form>
+
+<div class="hmmEndpointBox">
+            <h2>API Endpoints</h2>
+            <ul>
+                <li><code>https://data.police.uk/api/leicestershire/NC68</code></li>
+                <li><code>https://data.police.uk/api/leicestershire/neighbourhoods</code></li>
+            </ul>
+</div>
+        </div>
+        <div class="col-md-6">
+
+            <h2>Neighbourhood Information</h2>
+            <dl id="neighbourhoodInfo">
+
+            </dl>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <h1>Part 2: Criminal Activity</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="my-1 mr-2" for="year">Year</label>
+                            <select class="custom-select my-1 mr-sm-2" id="year">
+
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018" selected>2018</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="my-1 mr-2" for="month">Month</label>
+                            <select class="custom-select my-1 mr-sm-2" id="month">
+                                <option value="01" selected>Jan</option>
+                                <option value="02">Feb</option>
+                                <option value="03">Mar</option>
+                                <option value="04">Apr</option>
+                                <option value="05">May</option>
+                                <option value="06">Jun</option>
+                                <option value="07">Jul</option>
+                                <option value="08">Aug</option>
+                                <option value="09">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="hmmEndpointBox">
+                <h2>API Endpoints</h2>
+                <ul>
+                    <li><code>https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2017-01</code></li>
+                </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+                <h2>Crime Data</h2>
+
+                <table class="table table-striped" id="crimeData">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>Category</th>
+                        <th>Street</th>
+                        <th>Location</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+</div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/miscreants.js"></script>
+</body>
+</html>

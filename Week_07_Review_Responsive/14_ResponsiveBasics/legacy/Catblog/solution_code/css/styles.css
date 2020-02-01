@@ -1,0 +1,116 @@
+body {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  width: 100%;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+header {
+  padding: 3%;
+  background-color: #3B0855;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  margin: 3% 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 1em;
+  margin: 20px;
+}
+
+nav li:first-child{
+  display: none;
+}
+
+.cat {
+  width: 100%;
+}
+
+
+.toybox {
+  width: 20%;
+  float: right;
+}
+
+.toy {
+  max-width: 100%;
+}
+
+
+.intro {
+  padding: 2%;
+}
+
+.column {
+  width: 30%;
+  padding: 1%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+footer {
+  background-color: #3B0855;
+  padding: 3%;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 2%;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  nav li {
+    display: none;
+  }
+  nav li:first-child {
+    display: block;
+    font-size: 2em;
+  }
+  h1 {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .column {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    font-size: 1.125em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}

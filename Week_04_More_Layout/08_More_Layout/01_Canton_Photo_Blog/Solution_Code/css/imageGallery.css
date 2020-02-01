@@ -1,0 +1,130 @@
+
+/* Image Gallery / Single Featured Image */
+.pbeImageGallery > header {
+    background: #0F0D05;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 10px solid #22495E;
+
+}
+
+.pbeImageGallery > header > h1 {
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 12px;
+    border-bottom: 1px solid #332A10;
+    margin:0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.pbeImageGalleryFeaturedImage {
+    max-width: 100%;
+    max-height: 700px;
+    margin: 0 auto;
+    display:block;
+}
+
+
+.pbeImageGallery > header > nav {
+    background: black;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.pbeImageGallery > header > nav > div {
+    flex-basis: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+
+.pbeImageGallery > header > nav a:link,
+.pbeImageGallery > header > nav a:visited {
+    color: white;
+    text-decoration:none;
+    display:block;
+    text-transform: uppercase;
+}
+
+.pbeImageGallery > header > nav a:hover {
+    color: #E0CA88;
+}
+
+.pbeImageGallery > header > nav img {
+    max-height: 100px;
+}
+
+
+/* InfoBox */
+
+.pbeImageGalleryInfoBox {
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    display:flex;
+    padding-top: 30px;
+}
+
+.pbeImageGalleryInfoBox > * > *:first-child {
+    margin-top: 0;
+}
+
+pbeImageGalleryInfoBox > .pbeGeneralContent {
+    flex:60%;
+}
+
+.pbeImageGalleryInfoBoxStats {
+    flex: 40%;
+    margin-left: 20px;
+}
+
+.pbeImageGalleryInfoBoxStats dl {
+    overflow: hidden;
+}
+
+.pbeImageGalleryInfoBoxStats dt {
+    width: 30%;
+    clear:both;
+    float: left;
+    display:block;
+    box-sizing:border-box;
+    margin:14px 0 0 0;
+    text-align: right;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    overflow:hidden;
+}
+
+.pbeImageGalleryInfoBoxStats dd {
+    width:70%;
+    float: left;
+    display:block;
+    box-sizing:border-box;
+    padding-left: 20px;
+    margin:14px 0 0 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #332A10;
+    overflow:hidden;
+}
+
+.pbeImageGalleryInfoBoxStats a:link,
+.pbeImageGalleryInfoBoxStats a:visited {
+    color: #2B3775;
+    text-decoration: none;
+}
+
+.pbeImageGalleryInfoBoxStats a:hover{
+    color: #475CC4;
+}
+
+.pbeImageGalleryInfoBoxStats > h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #332A10;
+}

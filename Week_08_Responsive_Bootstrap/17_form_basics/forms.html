@@ -1,0 +1,77 @@
+
+<!--Basic Form Structure  -->
+<form action="destination" method="get or post">
+  <!--Would put form info here  -->
+  <!-- The <input> tag specifies an input field where the user can enter data. -->
+  <input type="submit">
+
+</form>
+
+<!--Action  -->
+
+<form action="http://putsomethinghere.com/post.php">
+
+<!--What to put in form: text area  -->
+<form>
+        <p>Can put info here</p>
+        <textarea rows="3" cols="60" name="feedback" >
+        Enter text here
+        </textarea>
+</form>
+
+<!--What to put in form: submit button  -->
+<form action="http://putsomethinghere.com/post.php"
+      method="get">
+        <label>Please enter any feedback you have.</label>
+        <textarea rows="3" cols="60" name="feedback" id="feedback">
+        Please enter your text here
+        </textarea>
+        <br>
+        <input type="submit" value="Send">
+</form>
+
+<!--Text, checkbox, radio  -->
+<form>
+        Please enter your name. <br>
+        <input type="text" name="feedback"> <br> <br>
+        Please select each of the following that you have. <br>
+        <input type="checkbox" name="items" value="car">Car <br>
+        <input type="checkbox" name="items" value="teddy bear">Teddy bear <br>
+        <input type="checkbox" name="items" value="toothbrush">Toothbrush <br> <br>
+        Please indicate your intelligence level. <br>
+        <input type="radio" name="iq" value="high">High <br>
+        <input type="radio" name="iq" value="medium" checked>Medium <br>
+        <input type="radio" name="iq" value="low">Low <br> <br>
+</form>
+
+<!--Password  -->
+<form>
+  <p>What's the password?</p>
+  <input type="password" name="userpassword"> <br>
+</form>
+
+<!--Selecting From a List-->
+
+<form>
+  <p>What city would you like to go to?</p>
+    <select name="cities">
+        <option value="hk">Hong Kong</option>
+        <option value="hk">Hong Kong</option>
+        <option value="sf">San Francisco</option>
+     </select>
+</form>
+
+<!--Attributes  -->
+<form>
+        <p>Please fill in the following information:</p>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" value="Dave" autofocus>
+        <br>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name goes here">
+        <br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        <br>
+        <input type="submit" value="Submit">
+</form>

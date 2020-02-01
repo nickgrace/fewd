@@ -1,0 +1,7 @@
+.colorBox {
+    background:orange;
+    width:100%;
+    min-height:120px;
+    box-sizing:border-box;
+    border:10px solid rgb(0,100,150);
+}

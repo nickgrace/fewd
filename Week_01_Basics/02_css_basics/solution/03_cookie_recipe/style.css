@@ -1,0 +1,26 @@
+body {
+  background: #FFE;
+  margin: 0;
+  border: 3px solid black;
+  padding: 30px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+a {
+  color: #900;
+}
+
+span {
+  color: #887;
+}
+
+img {
+	border: 3px solid black;
+}

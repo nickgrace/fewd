@@ -1,0 +1,22 @@
+
+.pseudoText .headerParagraph:first-letter {
+    font-weight:800;
+    font-size:80px;
+    line-height:80px;
+    float:left;
+}
+
+.pseudoText p:first-child {
+    color: darkgoldenrod;
+    font-weight:600;
+}
+
+
+.pseudoText a:visited {
+    color: mediumvioletred;
+}
+
+.pseudoText a:link {
+    color: teal;
+    font-weight:600;
+}
